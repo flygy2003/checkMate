@@ -1,0 +1,19 @@
+{
+  "name": "checkmate",
+  "version": "1.0.0",
+  "description": "Preflight-check companion for solo pilots",
+  "main": "index.js",
+  "scripts": {
+    "test": "sudo react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && sudo react-native run-android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flygy2003/checkMate.git"
+  },
+  "author": "Neekon Saadat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flygy2003/checkMate/issues"
+  },
+  "homepage": "https://github.com/flygy2003/checkMate#readme"
+}
