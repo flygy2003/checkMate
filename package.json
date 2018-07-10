@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/flygy2003/checkMate/issues"
   },
-  "homepage": "https://github.com/flygy2003/checkMate#readme"
+  "homepage": "https://github.com/flygy2003/checkMate#readme",
+  "dependencies": {
+    "eslint": "^5.1.0"
+  }
 }
