@@ -4,23 +4,23 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   Platform,
   StyleSheet,
   Text,
   View
-} from 'react-native';
-import BottomBar from './components/bottom_bar';
+} from 'react-native'
+import BottomBar from './components/bottom_bar'
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
 //     'Cmd+D or shake for dev menu',
 //   android: 'Double tap R on your keyboard to reload,\n' +
 //     'Shake or press menu button for dev menu',
-// });
+// })
 
-type Props = {};
+type Props = {}
 export default class App extends Component<Props> {
   render() {
     return (
@@ -28,7 +28,7 @@ export default class App extends Component<Props> {
         
         <BottomBar/>
       </View>
-    );
+    )
   }
 }
 
@@ -44,4 +44,4 @@ const styles = StyleSheet.create({
     color: '#ff0000',
     fontSize: 50
   }
-});
+})

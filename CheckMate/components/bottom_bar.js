@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import 
 {
   View,
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   item: {
     color: 'red'
   }
-});
+})
