@@ -6,12 +6,12 @@
 
 import React, { Component } from 'react'
 import {
-  Platform,
   StyleSheet,
   Text,
   View
 } from 'react-native'
 import BottomBar from './components/bottom_bar'
+import Title from './components/title_bar'
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
@@ -25,7 +25,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        
+        <Title/>
+        <Text style={styles.initmsg}>Select an item to begin</Text>
         <BottomBar/>
       </View>
     )
@@ -43,5 +44,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#ff0000',
     fontSize: 50
+  },
+  initmsg: {
+    fontSize: 18,
+    width: 150,
+    textAlign: 'center'
   }
 })
